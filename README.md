@@ -16,18 +16,14 @@ And now, you will find something Strange, why the format of Image is PGM, If you
 
 All right, please download some module for this work. Open your terminal and input it.
 
-> pip3 install -i https://pypi.douban.com/simple opencv-python
-
-> pip3 install -i https://pypi.douban.com/simple opencv-contrib-python 
-
+> pip3 install -i https://pypi.douban.com/simple opencv-python <br>
+> pip3 install -i https://pypi.douban.com/simple opencv-contrib-python <br> 
 > pip3 install -i https://pypi.douban.com/simple matplotlib
 
 After that, you can simply read image by the code follow
 
-> img = cv2.imread("path of the image")
-
-> cv2.imshow("mat", img)
-
+> img = cv2.imread("path of the image") <br>
+> cv2.imshow("mat", img) <br>
 > cv2.waitKey(0)
 
 you will see a face from ORL Dataset
@@ -39,27 +35,21 @@ In order to achieve this, we have to find some module which have already finishe
 
 Opencv have prepared three face recognizer, but I recommand you use something else such as dlib or train a model by Siamese Network.
 
-> EigenFaces: cv2.face.createEigenFaceRecognizer()
-
-> FisherFaces: cv2.face.createFisherFaceRecognizer()
-
+> EigenFaces: cv2.face.createEigenFaceRecognizer() <br>
+> FisherFaces: cv2.face.createFisherFaceRecognizer() <br>
 > LBPH: cv2.face.createLBPHFaceRecognizer()
 
 And you can train your recognizer as follow:
 
-> face_recognizer.train(faces, np.array(labels))
-
-> 
-
-> faces: List of face rect
-
-> labels: List of face label, you should encode one in same number.
+> face_recognizer.train(faces, np.array(labels)) <br>
+>  <br>
+> faces: List of face rect <br>
+> labels: List of face label, you should encode one in same number. <br>
 
 Finally, you can simply test the result of it.
 
->  face_recognizer.predict(face)
-
->  face: face image rect
+>  face_recognizer.predict(face) <br>
+>  face: face image rect <br>
 
 ## Finally
 I found some task about Data analysis, try to use matplotlib and pandas make figures. It's not hard but very troublesome. Good Luck!
