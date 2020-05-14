@@ -6,8 +6,7 @@ At first, you have to have a idea about how to use python tools such as pip3 or 
 Next, you have to download the ORL dataset accroding to the task recommadation.
 Because of some reason we can't discribe, we choose to use Baidu-yun, and the link show at next line.
 
-URL: [https://pan.baidu.com/s/178K357kYHhaJnYGyGI76Rg](https://pan.baidu.com/s/178K357kYHhaJnYGyGI76Rg)
-
+URL: [https://pan.baidu.com/s/178K357kYHhaJnYGyGI76Rg](https://pan.baidu.com/s/178K357kYHhaJnYGyGI76Rg) <br>
 password: o6e0
 
 Thanks for the Contribution of deana_.
@@ -52,5 +51,7 @@ Finally, you can simply test the result of it.
 >  face: face image rect <br>
 
 ## Finally
-I found some task about Data analysis, try to use matplotlib and pandas make figures. It's not hard but very troublesome. Good Luck!
+I found some task about Data analysis, try to use matplotlib and pandas make figures. It's not hard but very troublesome.
+
+# Good Luck!
 
